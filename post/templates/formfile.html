@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="q">
+    <input type="submit" value="search">
+</form>
+<p>{{ rlt }}</p>
+<br>
+<br>
+<br><br>
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="qq">
+    <input type="submit" value="search">
+</form>
+<p>{{ rlt2 }}</p>
+</body>
+</html>
