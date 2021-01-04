@@ -1,3 +1,3 @@
 # Django-Python-2.7
 
-## Basic Features using Django. 
+## Basic features like creating apps, adding post method etc...
